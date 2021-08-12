@@ -1,0 +1,7 @@
+print("*** Rabbit & Turtle ***")
+d,Vr,Vt,Vf = input("Enter Input : ").split()
+d = float(d)
+Vr = float(Vr)
+Vt = float(Vt)
+Vf = float(Vf)
+print("{:.2f}".format(d/(Vt - Vr) * Vf))
